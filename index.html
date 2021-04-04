@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="Exercise12.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing:border-box;
+}
+ 
+  body{
+    background-color: #F7EF6A;
+  }
+  
+.box1 {
+  background-color:  white;
+  border-style: solid;
+     background-image: url("C:/Users/claudio/Documents/exercise12images/ph10.png");
+   background-repeat: no-repeat;
+   background-size:55% 55%;
+    background-position: center;
+    padding:20px;
+	height:300px;
+  float:left;
+  width:49.5%;
+  margin-right: 0.5%;
+  margin-top: 0.5%;
+  text-align: center;
+}
+
+.box2 {
+  background-color:  white;
+  border-style: solid;
+  background-size: cover;
+  height:300px;
+  padding:20px;
+  float:left;
+  width:49.5%;
+  margin-top: 0.5%;
+  text-align: center; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:  white;
+   margin-left: auto;
+    margin-right: auto;
+	border: 1px solid #555;
+
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  
+}
+
+li {
+  text-align: center;
+   margin-left: auto;
+    margin-right: auto;
+	border-bottom: 1px solid #555;
+ 
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color:  #93C178;
+  color: white;
+   margin-left: auto;
+    margin-right: auto;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+
+}
+.box3 {
+  background-color:  white;
+  border-style: solid;
+   background-image: url("C:/Users/claudio/Documents/exercise12images/ph1.jfif");
+   background-repeat: no-repeat;
+    background-size: cover;
+   background-size:55% 55%;
+   background-position: center;
+  height:500px;
+  padding:20px;
+  float:left;
+  width:100%;
+  margin-top: 1%;
+  text-align: center;
+}
+
+.box4 {
+  background-color:  white;
+  border-style: solid;
+     background-image: url("C:/Users/claudio/Documents/exercise12images/ph2.jpg");
+	   vertical-align:-50px;
+   background-repeat: no-repeat;
+   background-size:55% 55%;
+   background-position: center;
+  padding:20px;
+  height:300px;
+  float:left;
+  width:33%;
+  margin-top: 1%;
+    margin-right: 0.5%;
+  text-align: center;
+}
+
+.box5 {
+  background-color:  white;
+  border-style: solid;
+   background-image: url("C:/Users/claudio/Documents/exercise12images/ph3.jpg");
+   background-repeat: no-repeat;
+   background-size:55% 55%;
+   background-position: center;
+  height:300px;
+  padding:20px;
+  float:left;
+  width:33%;
+  text-align: center;
+  margin-top: 1%;
+    margin-right: 0.5%;
+}
+
+.box6 {
+  background-color:  white;
+  border-style: solid;
+   background-image: url("C:/Users/claudio/Documents/exercise12images/ph4.jpg");
+   background-repeat: no-repeat;
+   background-size:55% 55%;
+   background-position: center;
+  height:300px;
+  padding:20px;
+  float:left;
+  width:33%;
+  margin-top: 1%;
+  text-align: center;
+}
+
+.box7 {
+  background-color:  white;
+  border-style: solid;
+  background-image: url("C:/Users/claudio/Documents/exercise12images/ph5.jpg");
+   background-repeat: no-repeat;
+   background-size:55% 55%;
+   background-position: center;
+  height:300px;
+  padding:20px;
+  float:left;
+  width:24.5%;
+  text-align: center;
+  margin-top: 1%;
+    margin-right: 0.5%;
+}
+
+.box8 {
+ background-color:  white;
+  border-style: solid;
+  background-image: url("C:/Users/claudio/Documents/exercise12images/ph6.jpg");
+   background-repeat: no-repeat;
+   background-size:50% 50%;
+   background-position: center;
+  height:300px;
+  padding:20px;
+  float:left;
+  width:24.5%;
+  margin-top: 1%;
+    margin-right: 0.5%;
+  text-align: center;
+}
+
+.box9 {
+  background-color:  white;
+  border-style: solid;
+   background-image: url("C:/Users/claudio/Documents/exercise12images/ph7.jpg");
+   background-repeat: no-repeat;
+   background-size:55% 55%;
+   background-position: center;
+  height:300px;
+  padding:20px;
+  float:left;
+  width:24.5%;
+  margin-top: 1%;
+    margin-right: 0.5%;
+  text-align: center;
+}
+.box10 {
+ background-color:  white;
+  border-style: solid;
+  background-image: url("C:/Users/claudio/Documents/exercise12images/ph8.jpg");
+   background-repeat: no-repeat;
+   background-size:50% 50%;
+   background-position: center;
+  height:300px;
+  padding:20px;
+  float:left;
+  width:24.5%;
+  margin-top: 1%;
+    margin-right: 0.5%;
+  text-align: center;
+}
+ h5 {
+    font-family: helvetica; 
+    font-weight: italic;	
+}
+
+@media screen and (max-width:1024px) {
+  .box1, .box2, .box3 {
+    width:100%; 
+  }
+  
+@media screen and (max-width:768px) {
+  .box4, .box5, .box6 {
+    width:100%;  }
+	.col-s-5 {width: 49.5%;}
+	.col-s-6 {width: 100%;}
+  }
+  
+@media screen and (max-width:320px) {
+  .box7, .box8, .box9, .box10 {
+    width:100%; 
+  }
+}
+</style>
+</head>
+<body style="margin: 1%;">
+
+<div class="col-s-6 box1">
+  
+</div>
+
+<div class="col-s-6 box2">
+<ul style="text-align:center;">
+ 
+  <li><a href="#box1">ONE</a></li>
+  <li><a href="#box2">TWO
+  <li><a href="#box3">THREE
+  <li><a href="#box3">FOUR
+  <li><a href="#box5">FIVE
+  <li><a href="#box6">SIX
+  <li><a href="#box7">SEVEN</a></li>
+</ul>
+</div>
+
+<div class="box3">
+  <h2 style="font-family: garamond;">7 THINGS TO DO IN THE PHILIPPINES</h2>
+
+</div>
+
+<div class="box4">
+  <h5><i>1. Go island hopping</h5>
+   <br><br>
+  <br><br>
+  <br><br>
+<br><br>
+  <p style="font-size:10px;" "align:justify;">What’s a trip to the Philippines if you won’t go island hopping? The Philippines is known to have the best beaches in the world so don’t miss this or you’ll regret it later.</p>
+
+</div>
+
+<div class="box5">
+  <h5>2. See the Natural and Man-made Wonders</h5>
+  <br><br>
+  <br><br>
+  <br><br>
+<br><br>
+<p style="font-size:10px;" "align:justify;"> The world can’t help but notice the Philippines’ iconic beauty because it is rich with wonders of nature. The country will leave you nothing but a full heart as you witness one of the world’s greatest views.</p>
+</div>
+
+<div class="box6">
+  <h5>3. Join a local festival</h5>
+    <br><br>
+  <br><br>
+  <br><br>
+<br><br>
+<p style="font-size:10px;" "align:justify;"> it’s not a surprise to know that the Philippines’s appetite for festivals is desirous—there’s one for pretty much every month of the year. Look into which festivals are being celebrated during the time of your visit and join the locals for some lively Filipino fun.</p>
+</div>
+<div class="col-s-5 box7">
+  <h5>4. Eat Filipino Food</h5>
+      <br><br>
+  <br><br>
+  <br><br>
+<br><br>
+<p style="font-size:10px;" "align:justify;"> You’re never in the Philippines if you haven’t tried at least one Filipino food. Food trip is one of the best things to do in the Philippines.
+</div>
+
+<div class="col-s-5 box8">
+  <h5>5. Go sandboarding and ride a 4×4 at the sand dunes</h5>
+      <br><br>
+  <br><br>
+  <br><br>
+<br>
+ <p style="font-size:10px;" "align:justify;">If you’re looking for a thrilling and exhilarating trip,the one-hour adventure entails sandboarding lessons and a bumpy ride to the sand dunes.   </p>
+
+</div>
+
+<div class="col-s-5 box9">
+  <h5>6. Party till the sun rises</h5>
+        <br><br>
+  <br><br>
+  <br><br>
+<br><br>
+<p style="font-size:10px;" "align:justify;">Filipinos are never boring so they know how to party, too! Don’t skip the drinks and nightlife when in the Philippines or you’ll miss the what-could-be-the-most fun night of your life.  </p>
+</div>
+
+<div class="col-s-5 box10">
+  <h5>7. Surf the sensational Philippine waves</h5></i>
+      <br><br>
+  <br><br>
+  <br><br>
+<br><br>
+<p style="font-size:10px;" "align:justify;"><i> The country has amazing spots specifically for surfing.  In fact, some of the biggest international surfing contests are done in the Philippines. </p></i>
+</div>
+</body>
+</html>
